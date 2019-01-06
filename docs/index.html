@@ -12,6 +12,7 @@
     <script async custom-element="amp-fx-collection" src="https://cdn.ampproject.org/v0/amp-fx-collection-0.1.js"></script>
     <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
     <script async custom-element="amp-fx-flying-carpet" src="https://cdn.ampproject.org/v0/amp-fx-flying-carpet-0.1.js"></script>
+    <script async custom-element="amp-fit-text" src="https://cdn.ampproject.org/v0/amp-fit-text-0.1.js"></script>
 
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700" rel="stylesheet" type="text/css" media="all" />
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:600" rel="stylesheet" type="text/css" media="all" />
@@ -112,7 +113,8 @@
                       <li><a href="/#">Our Team</a></li>
                       <li><a href="/#OurServices">Our Services</a></li>
                       <li><a href="/#">News</a></li>
-                      <li><a href="/#">Contact Us</a></li>
+                      <li><a href="/#">Events</a></li>
+                      <li><a href="/#">Contact</a></li>
                   </ul>
               </nav>
           </div>
@@ -141,100 +143,118 @@
 
       
       <section id="ActivateYourLife">
-        <amp-img alt="Activate Your Life" width="2400" height="1000" layout="responsive" src="/img/activate-your-life-banner.png"></amp-img>
+        <amp-img alt="Activate Your Life" width="2400" height="1000" layout="responsive" src="/img/activate-your-life-banner1.png"></amp-img>
+      </section>
+
+      <section id="Bookings" style="text-align:center">
+          <div class="mx-auto mt2 mb4">
+              <a class="button mr2" href=""><i class="fas fa-calendar"></i>&nbsp;&nbsp;Book Online</a>
+              <a class="button mr2" href=""><i class="fas fa-envelope"></i>&nbsp;&nbsp;Email</a>
+              <a class="button mr2" href=""><i class="fas fa-phone"></i>&nbsp;&nbsp;Phone</a>
+            </div>
       </section>
       
-      <!--  <section class="funky-section">
-        <div class="page-width mx-auto">
-          <h1 class="mt3 mb3">Activate Your Life</h1>
-          <p class="mx4">Activate Health &amp; Fitness is a team of highly experienced and down-to-earth physical health professionals who are passionate about helping you achieve your health and wellness goals.
-          Located in Brisbane's CBD, our boutique studio is for people who want to get real results in a fun and relaxed environment.</p>
-          <div class="mx-auto mt2 mb4">
-            <a class="button mr2" href="">Book Online</a>
-            <a class="button mr2" href="">Email</a>
-            <a class="button mr2" href="">Phone</a>
-          </div>
+      <section id="OurServices" class="home-services-section page-width mx-auto">
+        <h1 class="mb3">Our Services</h1>
+        <p class="mt3 mb4 mx3">Our team of personal trainers, physiotherapists, massage therapists and dietitians provide a wide range of professional health services. 
+            Our multidisciplinary approach focuses on improving your health and wellbeing through individualised treatment and exercise programs.</p>
         </div>
-       </section> -->
-      
-       <section id="OurServices" class="home-services-section page-width mx-auto">
-          <h1 class="mb3">Our Services</h1>
-          <p class="mt3 mb4 mx4">Our team of personal trainers, physiotherapists, massage therapists and dietitians provide a wide range of professional health services. 
-             Our multidisciplinary approach focuses on improving your health and wellbeing through individualised treatment and exercise programs.</p>
-          </div>
 
-          <div class="flex flex-wrap justify-center align-middle">
-            <div>
-              <amp-img alt="Personal Training" width="200" height="200" layout="fixed" src="/img/pt-btn.jpg"></amp-img>
-              <div class="bold ahf-color">PERSONAL TRAINING</div>
-              <p>Blah blah blah</p>
-            </div>
-            <div>
-              <amp-img alt="Physiotherapy" width="200" height="200" layout="fixed" src="/img/physio-btn.jpg"></amp-img>
-              <div class="bold ahf-color" color="activate-color">PHYSIOTHERAPY</div>
-              <p>Blah blah blah</p>
-            </div>
-            <div>
-              <amp-img alt="Massage Therapy" width="200" height="200" layout="fixed" src="/img/massage-btn.jpg"></amp-img>
-              <div class="bold ahf-color">MASSAGE THERAPY</div>
-              <p>Blah blah blah</p>
-            </div>
-            <div>
-              <amp-img alt="Dietetics Sports Nutrition" width="200" height="200" layout="fixed" src="/img/dietitian-btn.jpg"></amp-img>
-              <div class="bold ahf-color">NUTRITION</div>
-              <p>Blah blah blah</p>
-            </div>                        
+        <div class="flex flex-wrap justify-center align-middle mb2">
+          <div>
+            <amp-img alt="Personal Training" width="200" height="200" layout="fixed" src="/img/pt-btn.jpg"></amp-img>
+            <div class="bold ahf-color mb1">PERSONAL TRAINING</div>
+            <p class="home-services-section-text">Nothing gets results like training with a PT. We offer ont to one, corporate and small group training sessions.</p>
           </div>
-       </section>
+          <div>
+            <amp-img alt="Physiotherapy" width="200" height="200" layout="fixed" src="/img/physio-btn.jpg"></amp-img>
+            <div class="bold ahf-color mb1" color="activate-color">PHYSIOTHERAPY</div>
+            <p class="home-services-section-text">Our highly skilled physio specialises in injury management and rehab to to help you get better and stay well.</p>
+          </div>
+          <div>
+            <amp-img alt="Massage Therapy" width="200" height="200" layout="fixed" src="/img/massage-btn.jpg"></amp-img>
+            <div class="bold ahf-color mb1">MASSAGE THERAPY</div>
+            <p class="home-services-section-text">Our trained massage therapists specialise in remedial and sports massage, cupping and dry needling.
+              </p>
+          </div>
+          <div>
+            <amp-img alt="Dietetics Sports Nutrition" width="200" height="200" layout="fixed" src="/img/dietitian-btn.jpg"></amp-img>
+            <div class="bold ahf-color mb1">NUTRITION</div>
+            <p class="home-services-section-text">Our two accredited dietitians create individualised nutrition plans to help you reach your goals faster. </p>
+          </div>                        
+        </div>
+      </section>
 
-       <amp-fx-flying-carpet height="300px">
-         <amp-img src="/img/activate-studio.jpg"
+      <div class="flying-carpet-text-overlay-container">
+        <div class="flying-carpet-text-overlay">
+          <amp-fit-text width="1" height="1" layout="responsive" max-font-size="30px">
+            <p>The Activate Health &amp; Fitness team are highly experienced and down-to-earth physical health professionals who are passionate about helping you achieve your health and wellness goals.</p>
+            <p>Located in Brisbane's CBD, our boutique studio is for people who want to get real results in a fun and relaxed environment.</p>
+          </amp-fit-text>
+        </div>
+      </div>
+      <amp-fx-flying-carpet height="345px">
+         <amp-img src="/img/activate-studio.jpg" class="object-fit-cover-child-img"
             width="2400"
             height="850"
+            layout="fill"
             alt="Activate Studio"></amp-img>
-       </amp-fx-flying-carpet>
-       <div class="flying-carpet-text-overlay">Hello</div>
+      </amp-fx-flying-carpet>
 
       <section id="ActivateNews"> 
-        <div class="page-width mx-auto px4 py2">
-          <h1 class="mb3">ACTIVATE NEWS</h1>
+        <div class="mx-auto px2 py2">
+          <h1 class="mb3">LATEST NEWS & EVENTS</h1>
 
-          <amp-carousel height="400" layout="fixed-height" type="carousel">
+          <amp-carousel height="340" layout="fixed-height" type="carousel">
             <div>
-              <amp-img src="/img/physio-btn.jpg" width="325" height="325" alt="a sample image"></amp-img>
-              <div class="carousel-heading">Stuff</div>
-              <div class="carousel-text">blah blah blah blah blah blahblah blahblah blahblah blahblah blahblah blahblah blah</div>
+              <amp-img src="/img/compression.jpg" width="320" height="213" layout="fixed" alt="to wear or not wear compression"></amp-img>
+              <div class="carousel-heading mb1">COMPRESSION GARMENT WRAP-UP</div>
+              <div class="carousel-text">blah blah blah blah lahblahlahblah blahblah blah blahblah blahlahblah blahblah blahlahblah blahblah blah</div>
             </div>
 
             <div>
-              <amp-img src="/img/massage-btn.jpg" width="325" height="325" alt="another sample image"></amp-img>
-              <div class="carousel-heading">Stuff</div>
-              <div class="carousel-text">blah blah blah blah blah blahblah blahblah blahblah blahblah blahblah blahblah blah</div>
+              <amp-img src="/img/Myles-Burfield-Physio.jpg" width="320" height="213" layout="fixed" alt="to wear or not wear compression"></amp-img>
+              <div class="carousel-heading mb1">STRENGTH vs STRETCHING</div>
+              <div class="carousel-text">blah blah blah blah blahlahblah lahblah blahblah blahblahblah blahlahblah blahblah blah blahblah blah</div>
             </div>
 
             <div>
-              <amp-img src="/img/dietitian-btn.jpg" width="325" height="325" alt="and another sample image"></amp-img>
-              <div class="carousel-heading">Stuff</div>
-              <div class="carousel-text">blah blah blah blah blah blahblah blahblah blahblah blahblah blahblah blahblah blah</div>
+              <amp-img src="/img/injury.png" width="320" height="213" layout="fixed" alt="and another sample image"></amp-img>
+              <div class="carousel-heading mb1">WHY DO I KEEP GETTING INJURED</div>
+              <div class="carousel-text">blah blah blah bllahlahblah blahblah lahblah blahblah blahblahlahblah blahblah blah blahblah blah</div>
             </div>
 
             <div>
-              <amp-img src="/img/massage-btn.jpg" width="325" height="325" alt="another sample image"></amp-img>
-              <div class="carousel-heading">Stuff</div>
-              <div class="carousel-text">blah blah blah blah blah blahblah blahblah blahblah blahblah blahblah blahblah blah</div>
+              <amp-img src="/img/dr-miki-humphrey-chiropractor-brisban.jpg" width="320" height="213" layout="fixed" alt="another sample image"></amp-img>
+              <div class="carousel-heading mb1">BENEFITS OF CHIROPRACTIC CARE</div>
+              <div class="carousel-text">blah blah blahlahblah blahblah blahlahblah blahblah blahlahblah blahblah blah blah blahblah blah</div>
             </div>
-
-            <div>
-              <amp-img src="/img/dietitian-btn.jpg" width="325" height="325" alt="and another sample image"></amp-img>
-              <div class="carousel-heading">Stuff</div>
-              <div class="carousel-text">blah blah blah blah blah blahblah blahblah blahblah blahblah blahblah blahblah blah</div>
-            </div>
-
           </amp-carousel>
-
       </section>
       
-
+      <section id="OurAssociations" class="mx-auto">
+        <h1 class="mb3">Our Partners</h1>
+        <amp-carousel height="400" layout="fixed-height" type="carousel">
+        </amp-carousel>
+        <div class="flex flex-wrap justify-center align-middle mb2">
+            <div>
+              <amp-img alt="Diamondport" width="350" height="80" layout="fixed" src="/img/Diamondport-Logo.png"></amp-img>
+            </div>
+            <div>
+              <amp-img alt="ASICS" width="200" height="70" layout="fixed" src="/img/ASICS-Logo.png"></amp-img>
+            </div>
+            <div>  
+              <amp-img alt="QLD Orthodics" width="250" height="80" layout="fixed" src="/img/QLD-Orthodics-Logo.jpg"></amp-img>
+            </div>
+            <div>
+              <amp-img alt="InStitchu" width="250" height="80" layout="fixed" src="/img/InStitchu-logo.png"></amp-img>
+            </div>   
+            <div>
+                <amp-img alt="The Fitting Room" width="300" height="80" layout="fixed" src="/img/The-Fitting-Room-Logo.png"></amp-img>
+              </div>                        
+        </div>
+       </section>
+      </section>
         
     </main>
 
@@ -244,7 +264,7 @@
 
     <footer>
       <div>
-        <p class="footer-heading">Activate headquarters</p>
+        <p class="footer-heading">Activate HQ</p>
         <p><i class="fas fa-map-marker-alt ahf-color"></i> Ground Floor/388 Queen Street, Brisbane</p>
         <p><i class="fas fa-phone ahf-color"></i> Phone: 0405 590 914</p>
         <p><i class="fas fa-envelope ahf-color"></i> Email: hello@activatehf.com.au</p>
