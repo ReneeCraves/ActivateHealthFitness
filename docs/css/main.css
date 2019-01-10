@@ -3,23 +3,23 @@
 }
 
 .ahf-color {
-  color: rgb(38, 172, 161);
+  color: #4fc0b9;
 }
 
 a {
-  color: rgb(38, 172, 161);
+  color: #4fc0b9;
 }
 
 
 
 a:hover, a:focus {
   text-decoration-line: none;
-  color: rgb(38, 172, 161);
+  color: #4fc0b9;
   font-weight: bold;
 }
 
 a.button {
-  background-color: rgb(38, 172, 161);
+  background-color: #4fc0b9;
   color:white;
   padding: 0.5rem 1rem;
   font-size: 1rem;
@@ -38,7 +38,7 @@ body, html {
 }
 
 body,input,textarea,button,select {
-  font-size:15px;
+  font: size 18px;
   font-family:"Work Sans", "Open Sans", sans-serif;
   color:#575555;
   line-height:1.5;
@@ -59,7 +59,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  color: rgb(38, 172, 161);
+  color: #4fc0b9;
   text-align: center;
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
@@ -215,7 +215,7 @@ header > div {
 
 .header-navbar nav ul li a:hover,
 .header-navbar nav ul li a.active {
-    color: rgb(38, 172, 161);
+    color: #4fc0b9;
 }
 
 
@@ -237,7 +237,7 @@ header > div {
    ========================================================================== */
 
 .funky-section {
-  background-image: linear-gradient(90deg, rgb(21, 90, 84) 0, rgb(38, 172, 161));
+  background-image: linear-gradient(90deg, #32aca4 0,#4fc0b9);
   padding:6rem;
   font-size:18px;
   text-align:center;
@@ -305,8 +305,6 @@ header > div {
   height: 280px;
 }
 
-
-
 /* ==========================================================================
    Carousel
    ==========================================================================*/
@@ -316,7 +314,7 @@ header > div {
 }
 
 .amp-carousel-button {
-  background-color: rgb(38, 172, 161);
+  background-color: #4fc0b9;
 }
   
 .amp-carousel-slide {
@@ -367,7 +365,7 @@ header > div {
    ========================================================================== */
 
 #BottomAnnouncement {
-  background-color: rgb(38, 172, 161);
+  background-color: #4fc0b9;
   color: white;
   font-weight: bold;
   padding: 1rem;
@@ -379,18 +377,41 @@ header > div {
   Footer
   ========================================================================== */
 
-footer {
-  background-color:rgba(209, 206, 206, 0.37);
-  padding: 4em 0 3em 0;
+footer,
+.footer-contact,
+footer .social-icons {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: top; 
 }
 
+.footer-contact {
+  flex-direction: column;
+}
+
+
+footer {
+  background-color:rgba(209, 206, 206, 0.37);
+  padding: 4em 0 3em 0;
+}
+
 .footer-heading {
   font-weight: bold;
-  color: rgb(38, 172, 161);
+  color: #4fc0b9;
+}
+
+footer .social-icons > div {
+  padding-right: 1rem;
+}
+
+footer .social-icons > div:last-child {
+  padding-right: 0;
+}
+
+footer .social-icons svg {
+  width: 2rem;
+  height: 2rem;
 }
 
 /* footer ul {
@@ -456,7 +477,7 @@ footer .copyright {
   grid-area: selector;
 }
   .services-page-accordion-selector .h2 {
-    background-color: rgb(38, 172, 161);
+    background-color: #4fc0b9;
     color:white;
     padding: 2rem 1rem;
     font-size: 1.3rem;
@@ -480,4 +501,57 @@ footer .copyright {
 
 .services-page-accordion-main .card {
   min-width: 20rem;
+}
+
+
+/* ==========================================================================
+   Content Pages
+   ==========================================================================*/
+
+#SectionOneContent {
+  background-color: #4fc0b9;
+  padding: 2rem;
+}
+
+#SectionOneContent > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: top; 
+  color: white;
+}
+
+#SectionOneContent > div > div {
+  flex-basis: 30rem;
+  margin-top: 1rem;
+}
+
+.special-intro {
+  font-weight: 100;
+  line-height: 45px;
+  font-size: 30px;
+  letter-spacing: 0.5px;
+}
+
+.special-content {
+  font-weight: 100;
+  line-height: 28px;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+#FurtherInformationGrid { 
+  padding: 2rem;
+}
+
+#FurtherInformationGrid > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: top; 
+}
+
+#FurtherInformationGrid > div > div {
+  flex-basis: 40rem;
+  margin-top: 2rem;
 }

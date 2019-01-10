@@ -124,72 +124,83 @@
     
     <!-- Main Content -->
     <main aria-role="main">
-
-      <amp-carousel class="carousel-full-width"
-          amp-fx="fade-in" data-duration="2000ms"
-          width="2" height="1" layout="responsive"
-          type="slides" autoplay delay="6000">
-
-        <amp-img alt="Woman Battle Ropes" width="2" height="1" layout="responsive"
-          srcset="/img/home-slides/slide-0-2400x1200.jpg 2400w, /img/home-slides/slide-0-1920x960.jpg 1920w, /img/home-slides/slide-0-1280x640.jpg 1280w, /img/home-slides/slide-0-800x400.jpg 800w, /img/home-slides/slide-0-600x300.jpg 600w">
-        </amp-img>
-        <amp-img alt="Man Rower" width="2" height="1" layout="responsive"
-          srcset="/img/home-slides/slide-1-2400x1200.jpg 2400w, /img/home-slides/slide-1-1920x960.jpg 1920w, /img/home-slides/slide-1-1280x640.jpg 1280w, /img/home-slides/slide-1-800x400.jpg 800w, /img/home-slides/slide-1-600x300.jpg 600w">
-        </amp-img>
-        <amp-img alt="Woman Running" width="2" height="1" layout="responsive"
-          srcset="/img/home-slides/slide-2-2400x1200.jpg 2400w, /img/home-slides/slide-2-1920x960.jpg 1920w, /img/home-slides/slide-2-1280x640.jpg 1280w, /img/home-slides/slide-2-800x400.jpg 800w, /img/home-slides/slide-2-600x300.jpg 600w">
-        </amp-img>
-      </amp-carousel>
-
       
-      <section id="ActivateYourLife">
-        <amp-img alt="Activate Your Life" width="2400" height="1000" layout="responsive" src="/img/activate-your-life-banner1.png"></amp-img>
+      <section id="PTPageHeaderImage" class="relative"> 
+        <!-- <p class="absolute" style="top:10rem; left:10rem; font-size:10rem; color:red; z-index:1" >Hello</p> -->
+        <amp-img alt="Personal Training" width="2400" height="1000" layout="responsive" src="/img/personal-training-banner1.jpg"></amp-img>
       </section>
+   
+      <!-- <svg xmlns="http://www.w3.org/2000/svg" width="100px" height="100px" viewBox="0 0 100 100">
+        <svg x="40" y="40" width="100px" height="100px" viewBox="0 0 100 100">
+            <text>hello1</text>
+        </svg>
 
-      <section id="Bookings" style="text-align:center">
-          <div class="mx-auto mt2 mb4 flex flex-wrap justify-center items-center">
-              <a class="button mr2 mt1" href=""><i class="fas fa-calendar"></i>&nbsp;&nbsp;Book Online</a>
-              <a class="button mr2 mt1" href=""><i class="fas fa-envelope"></i>&nbsp;&nbsp;Email</a>
-              <a class="button mt1" href=""><i class="fas fa-phone"></i>&nbsp;&nbsp;Phone</a>
-            </div>
-      </section>
-      
-      <section id="OurServices" class="home-services-section page-width mx-auto">
-        <h1 class="mb3">Our Services</h1>
-        <p class="mt3 mb4 mx3">Our team of personal trainers, physiotherapists, massage therapists and dietitians provide a wide range of professional health services.       
-          Our holistic approach towards health and wellbeing focuses on helping you achieve your fitness goals and improve your overall health by working together and with you to ensure the best outcomes.</p>
+        <svg x="20" y="20" width="100px" height="100px" viewBox="0 0 100 100">
+          <text>hello2</text>
+        </svg>
+      </svg> -->
+
+      <section id="SectionOneContent">
+        <div class="page-width mx-auto">
+
+          <div class="special-intro">
+            <p>Get fit, train smart, stay motivated and have fun with the help of a personal trainer.</p>
+          </div>
+
+          <div class="special-content">
+            <p class="mb2 bold">WE LIKE TO MOVE IT, MOVE IT</p>
+            <p>Do you want to take your fitness to the next level or just need a little extra encouragement to get moving?</p>
+            <p>Our motivated team of personal trainers love helping clients to achieve their fitness goals. Think of us as your personal cheerleaders!</p>
+            <p>Meet the team button.</p>
+          </div>
+
+          <div class="special-content"> 
+            <p>Claim your free personal training session now.</p>
+            <a class="button mt1" href=""><i class="fas fa-calendar"></i>&nbsp;&nbsp;Book Online</a>
+          </div>
+
+          <div class="special-content">
+            <p> </p>
+          </div>
+   
         </div>
+      </section>
+      
+      <section id="PTServices" class="home-services-section page-width mx-auto">
+        <h1 class="mb3">PERSONAL TRAINING SERVICES</h1>
+        <p class="mt3 mb4 mx3">Whether you are training for a marathon or never set foot in a gym, our experienced personal trainers will provide you with support you need and design a training program that works for you. Explore our services below or ask us about which services are right for you.</p>
+        </div>
+
 
         <div class="flex flex-wrap justify-center align-middle mb2">
           <div>
-            <amp-img alt="Personal Training" width="200" height="200" layout="fixed" src="/img/pt-btn.jpg"></amp-img>
-            <div class="bold ahf-color mb1">PERSONAL TRAINING</div>
-            <p class="home-services-section-text">Nothing gets results like training with a PT. We offer One on One, Small Group Training as well as Corporate sessions.</p>
+            <amp-img alt="One on One" width="200" height="200" layout="fixed" src="/img/one-to-one.png"></amp-img>
+            <div class="bold ahf-color mb1">ONE ON ONE</div>
+            <p class="home-services-section-text">Fast track your results by working one on one with your personal trainer.</p>
           </div>
           <div>
-            <amp-img alt="Physiotherapy" width="200" height="200" layout="fixed" src="/img/physio-btn.jpg"></amp-img>
-            <div class="bold ahf-color mb1" color="activate-color">PHYSIOTHERAPY</div>
-            <p class="home-services-section-text">Our highly skilled physio specialises in injury management and rehab to to help you get better and stay well.</p>
+            <amp-img alt="Small Group Training" width="200" height="200" layout="fixed" src="/img/small-groups.png"></amp-img>
+            <div class="bold ahf-color mb1" color="activate-color">SMALL GROUPS</div>
+            <p class="home-services-section-text">Exercise is better with friends. Assemble your A-Team get fit together.</p>
           </div>
           <div>
-            <amp-img alt="Massage Therapy" width="200" height="200" layout="fixed" src="/img/massage-btn.jpg"></amp-img>
-            <div class="bold ahf-color mb1">MASSAGE THERAPY</div>
-            <p class="home-services-section-text">Our trained massage therapists specialise in remedial and sports massage, cupping and dry needling.
-              </p>
+            <amp-img alt="Corporate Group Training" width="200" height="200" layout="fixed" src="/img/corporate-groups.png"></amp-img>
+            <div class="bold ahf-color mb1">CORPORATE GROUPS</div>
+            <p class="home-services-section-text">We love to help businesses incorporate health & fitness into their workplace.</p>
           </div>
           <div>
-            <amp-img alt="Dietetics Sports Nutrition" width="200" height="200" layout="fixed" src="/img/dietitian-btn.jpg"></amp-img>
-            <div class="bold ahf-color mb1">NUTRITION</div>
-            <p class="home-services-section-text">Our two accredited dietitians create individualised nutrition plans to help you reach your goals faster. </p>
+            <amp-img alt="Specific Goals" width="200" height="200" layout="fixed" src="/img/specific-goals.png"></amp-img>
+            <div class="bold ahf-color mb1">SPECIFIC GOALS</div>
+            <p class="home-services-section-text">Are you training for a specific event? Our team will help you get there.</p>
           </div>                        
         </div>
       </section>
 
-      <div class="flying-carpet-text-overlay-container">
+      <!-- <div class="flying-carpet-text-overlay-container">
         <div class="flying-carpet-text-overlay">
           <amp-fit-text width="1" height="1" layout="responsive" max-font-size="30px">
-            <p>The Activate Health &amp; Fitness team are highly experienced and down-to-earth physical health professionals who are passionate about helping you achieve your health and wellness goals.</p>
-            <p>Located in Brisbane's CBD, our boutique studio is for people who want to get real results in a fun and supportive environment.</p>
+            <p>Motivation gets you going, habit gets you there.</p>
+            
           </amp-fit-text>
         </div>
       </div>
@@ -199,68 +210,10 @@
             height="850"
             layout="fill"
             alt="Activate Studio"></amp-img>
-      </amp-fx-flying-carpet>
+      </amp-fx-flying-carpet> -->
 
-      <section id="ActivateNews"> 
-        <div class="mx-auto px2 py2">
-          <h1 class="mb3">LATEST NEWS & EVENTS</h1>
-
-          <amp-carousel height="350" layout="fixed-height" type="carousel">
-            <div>
-              <amp-img src="/img/compression.jpg" width="320" height="213" layout="fixed" alt="to wear or not wear compression"></amp-img>
-              <div class="carousel-heading mb1">COMPRESSION GARMENT WRAP-UP</div>
-              <div class="carousel-text">No doubt you’ve seen compression garments being worn plenty of times before. But how effective is compression wear for the non athlete?</div>
-            </div>
-
-            <div>
-              <amp-img src="/img/Myles-Burfield-Physio.jpg" width="320" height="213" layout="fixed" alt="to wear or not wear compression"></amp-img>
-              <div class="carousel-heading mb1">STRENGTH vs STRETCHING</div>
-              <div class="carousel-text">Recent studies have questioned the effectiveness of static stretching for performance and flexibility – does static stretching still...</div>
-            </div>
-
-            <div>
-              <amp-img src="/img/injury.png" width="320" height="213" layout="fixed" alt="and another sample image"></amp-img>
-              <div class="carousel-heading mb1">WHY DO I KEEP GETTING INJURED</div>
-              <div class="carousel-text">Let me preface this article by confirming that nobody is invincible, and everyone has a breaking point. But where is my breaking point?</div>
-            </div>
-
-            <div>
-              <amp-img src="/img/dr-miki-humphrey-chiropractor-brisban.jpg" width="320" height="213" layout="fixed" alt="another sample image"></amp-img>
-              <div class="carousel-heading mb1">BENEFITS OF CHIROPRACTIC CARE</div>
-              <div class="carousel-text">As a chiropractor, I have always worked with many personal trainers and their clients. Both myself, the PTs and clients have all noticed...</div>
-            </div>
-          </amp-carousel>
-      </section>
+      <section id="FurtherInformationGrid">
       
-      <section id="OurAssociations" class="page-width mx-auto px2 py2">
-        <h1 class="mt2 mb4">Our Partners</h1>
-        <amp-carousel height="150" layout="fixed-height" type="carousel">
-          <div>
-            <amp-img alt="Diamondport" width="350" height="80" layout="fixed" src="/img/Diamondport-Logo.png"></amp-img>
-          </div>
-          <div>
-            <amp-img alt="ASICS" width="200" height="70" layout="fixed" src="/img/ASICS-Logo.png"></amp-img>
-          </div>
-          <div>  
-            <amp-img alt="QLD Orthodics" width="250" height="80" layout="fixed" src="/img/QLD-Orthodics-Logo.jpg"></amp-img>
-          </div>
-          <div>
-            <amp-img alt="InStitchu" width="250" height="80" layout="fixed" src="/img/InStitchu-logo.png"></amp-img>
-          </div>   
-          <div>
-            <amp-img alt="The Fitting Room" width="300" height="80" layout="fixed" src="/img/The-Fitting-Room-Logo.png"></amp-img>
-          </div>                        
-        </amp-carousel>
-      </section>
-
-    <section id="instagramFeed" class="page-width">
-        <h1 class="mt4 text-center">Instagram</h1>
-        <div>
-          <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-          <iframe src="//lightwidget.com/widgets/ca6a1389bd365801a0e9c614c661e477.html" scrolling="no" allowtransparency="true" class="lightwidget-widget"
-            style="width:100%;border:0;overflow:hidden;"></iframe>
-        </div>
-      </section>
   
         
     </main>

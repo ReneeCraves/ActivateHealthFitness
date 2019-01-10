@@ -110,9 +110,10 @@
                   <ul>
                       <li><a href="/#">About</a></li>
                       <li><a href="/#">Our Team</a></li>
-                      <li><a href="/#OurServices" class="active">Our Services</a></li>
+                      <li><a href="/#OurServices" class="active">Services</a></li>
                       <li><a href="/#">News</a></li>
-                      <li><a href="/#">Contact Us</a></li>
+                      <li><a href="/#">Events</a></li>
+                      <li><a href="/#">Contact</a></li>
                   </ul>
               </nav>
           </div>
@@ -121,11 +122,14 @@
     </header>
     
     <!-- Main Content -->
+    
+    <div section class="funky-section">
+        <h1 class="mt3 mb4">Our Services</h1>
+    </div>
+   
     <main aria-role="main" class="page-width mx-auto py2">
-
-      <h1>Our Services</h1>
-
-      <p>Our team of personal trainers, physiotherapists, massage therapists and dietitians provide a wide range of professional health services. 
+      <div class="page-width mx-auto mt3">
+        <p>Our team of personal trainers, physiotherapists, massage therapists and dietitians provide a wide range of professional health services. 
           Our multidisciplinary approach focuses on improving your health and wellbeing through individualised treatment and exercise programs.</p>
       
       <section class="services-page-accordion pt3">
@@ -155,25 +159,36 @@
                 <div class="card-container flex flex-wrap justify-around items-center">
 
                   <div class="card">
-                    <h3>Stuff</h3>
+                    <h3>One On One</h3>
+                    <amp-img src="/img/one-to-one.png" width="300" height="300" layout="fixed" alt="One on one personal training"></amp-img>
                     <p>blah description</p>
                     <br/><br/>
                     <a alt="Read more" href="#" target="_blank">Read more</a>
                   </div>
 
                   <div class="card">
-                    <h3>Stuff</h3>
+                    <h3>Small Groups</h3>
+                    <amp-img src="/img/small-groups.png" width="300" height="300" layout="fixed" alt="One to one personal training"></amp-img>
                     <p>blah description</p>
                     <br/><br/>
                     <a alt="Read more" href="#" target="_blank">Read more</a>
                   </div>
 
                   <div class="card">
-                    <h3>Stuff</h3>
+                    <h3>Corporate Services</h3>
+                    <amp-img src="/img/corporate-groups.png" width="300" height="300" layout="fixed" alt="One to one personal training"></amp-img>
                     <p>blah description</p>
                     <br/><br/>
                     <a alt="Read more" href="#" target="_blank">Read more</a>
                   </div>
+
+                  <div class="card">
+                     <h3>Specific Goals</h3>
+                     <amp-img src="/img/specific-goals.png" width="300" height="300" layout="fixed" alt="One to one personal training"></amp-img>
+                     <p>blah description</p>
+                     <br/><br/>
+                     <a alt="Read more" href="#" target="_blank">Read more</a>
+                    </div>
     
                 </div>
  
@@ -182,27 +197,147 @@
             <section id="physioSection" hidden [hidden]="accordionState.current != 'physio'">
                 <h2>Physiotherapy</h2>
 
-                lasdjlk asdlk alk l;kj ;lkjasfa s alkjsad 
-                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                lkajsdflksadjlk
+                <div class="card-container flex flex-wrap justify-around items-center">
+
+                    <div class="card">
+                      <h3>Physiotherapy</h3>
+                      <amp-img src="/img/one-to-one.png" width="300" height="300" layout="fixed" alt="One to one personal training"></amp-img>
+                      <p>blah description</p>
+                      <br/><br/>
+                      <a alt="Read more" href="#" target="_blank">Read more</a>
+                    </div>
+  
+                    <div class="card">
+                      <h3>Sports Physiotherapy</h3>
+                      <amp-img src="/img/small-groups.png" width="300" height="300" layout="fixed" alt="One to one personal training"></amp-img>
+                      <p>blah description</p>
+                      <br/><br/>
+                      <a alt="Read more" href="#" target="_blank">Read more</a>
+                    </div>
+  
+                    <div class="card">
+                      <h3>Biomechanical Analysis</h3>
+                      <amp-img src="/img/corporate-groups.png" width="300" height="300" layout="fixed" alt="One to one personal training"></amp-img>
+                      <p>blah description</p>
+                      <br/><br/>
+                      <a alt="Read more" href="#" target="_blank">Read more</a>
+                    </div>
+  
+                    <div class="card">
+                        <h3>Running/Video Analysis</h3>
+                        <amp-img src="/img/specific-goals.png" width="300" height="300" layout="fixed" alt="One to one personal training"></amp-img>
+                        <p>blah description</p>
+                        <br/><br/>
+                        <a alt="Read more" href="#" target="_blank">Read more</a>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Exercise Prescriptions</h3>
+                        <amp-img src="/img/specific-goals.png" width="300" height="300" layout="fixed" alt="One to one personal training"></amp-img>
+                        <p>blah description</p>
+                        <br/><br/>
+                        <a alt="Read more" href="#" target="_blank">Read more</a>
+                    </div>
+
+                    <div class="card">
+                        <h3>Rehabilitation Planning</h3>
+                        <amp-img src="/img/specific-goals.png" width="300" height="300" layout="fixed" alt="One to one personal training"></amp-img>
+                        <p>blah description</p>
+                        <br/><br/>
+                        <a alt="Read more" href="#" target="_blank">Read more</a>
+                    </div>
+      
+                  </div>
 
               </section>
         
             <section id="massageSection" hidden [hidden]="accordionState.current != 'massage'">
                 <h2>Massage Therapy</h2>
 
-                lasdjlk asdlk alk l;kj ;lkjasfa s alkjsad 
-                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                lkajsdflksadjlk
+                <div class="card-container flex flex-wrap justify-around items-center">
+
+                    <div class="card">
+                      <h3>Soft Tissue Massage</h3>
+                      <amp-img src="/img/one-to-one.png" width="300" height="300" layout="fixed" alt="One to one personal training"></amp-img>
+                      <p>blah description</p>
+                      <br/><br/>
+                      <a alt="Read more" href="#" target="_blank">Read more</a>
+                    </div>
+  
+                    <div class="card">
+                      <h3>Dry Needling</h3>
+                      <amp-img src="/img/small-groups.png" width="300" height="300" layout="fixed" alt="One to one personal training"></amp-img>
+                      <p>blah description</p>
+                      <br/><br/>
+                      <a alt="Read more" href="#" target="_blank">Read more</a>
+                    </div>
+  
+                    <div class="card">
+                      <h3>Relaxation Massage</h3>
+                      <amp-img src="/img/corporate-groups.png" width="300" height="300" layout="fixed" alt="One to one personal training"></amp-img>
+                      <p>blah description</p>
+                      <br/><br/>
+                      <a alt="Read more" href="#" target="_blank">Read more</a>
+                    </div>
+  
+                    <div class="card">
+                        <h3>Pregnancy Massage</h3>
+                        <amp-img src="/img/specific-goals.png" width="300" height="300" layout="fixed" alt="One to one personal training"></amp-img>
+                        <p>blah description</p>
+                        <br/><br/>
+                        <a alt="Read more" href="#" target="_blank">Read more</a>
+                      </div>
+
+                    <div class="card">
+                        <h3>In-House Chair </h3>
+                        <amp-img src="/img/specific-goals.png" width="300" height="300" layout="fixed" alt="One to one personal training"></amp-img>
+                        <p>blah description</p>
+                        <br/><br/>
+                        <a alt="Read more" href="#" target="_blank">Read more</a>
+                    </div>
+      
+                  </div>
 
             </section>
     
             <section id="dietSection" hidden [hidden]="accordionState.current != 'diet'">
                 <h2>Dietetics Sports Nutrition</h2>
 
-                lasdjlk asdlk alk l;kj ;lkjasfa s alkjsad 
-                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-                lkajsdflksadjlk
+                <div class="card-container flex flex-wrap justify-around items-center">
+
+                    <div class="card">
+                      <h3>ONE TO ONE</h3>
+                      <amp-img src="/img/one-to-one.png" width="300" height="300" layout="fixed" alt="One to one personal training"></amp-img>
+                      <p>blah description</p>
+                      <br/><br/>
+                      <a alt="Read more" href="#" target="_blank">Read more</a>
+                    </div>
+  
+                    <div class="card">
+                      <h3>SMALL GROUPS</h3>
+                      <amp-img src="/img/small-groups.png" width="300" height="300" layout="fixed" alt="One to one personal training"></amp-img>
+                      <p>blah description</p>
+                      <br/><br/>
+                      <a alt="Read more" href="#" target="_blank">Read more</a>
+                    </div>
+  
+                    <div class="card">
+                      <h3>CORPORATE GROUPS</h3>
+                      <amp-img src="/img/corporate-groups.png" width="300" height="300" layout="fixed" alt="One to one personal training"></amp-img>
+                      <p>blah description</p>
+                      <br/><br/>
+                      <a alt="Read more" href="#" target="_blank">Read more</a>
+                    </div>
+  
+                    <div class="card">
+                        <h3>SPECIFIC GOALS</h3>
+                        <amp-img src="/img/specific-goals.png" width="300" height="300" layout="fixed" alt="One to one personal training"></amp-img>
+                        <p>blah description</p>
+                        <br/><br/>
+                        <a alt="Read more" href="#" target="_blank">Read more</a>
+                      </div>
+      
+                  </div>
 
             </section>
         </section>
@@ -212,7 +347,7 @@
     </main>
 
     <section id="BottomAnnouncement" class="mt4">
-      boo hoo
+      IT'S TIME TO GET ACTIVE! BOOK YOUR APPOINTMENT NOW.
     </section>
 
     <footer>
