@@ -83,10 +83,21 @@ h6 a, .h6 a {
   font-weight:inherit
 }
 
+.background-image-filter-5,
+.background-image-filter-4,
 .background-image-filter-3,
 .background-image-filter-2 {
   background-color: black;
   height: 100%;
+  width: 100%;
+}
+
+.background-image-filter-5 {
+  opacity: 0.5;
+}
+
+.background-image-filter-4 {
+  opacity: 0.4;
 }
 
 .background-image-filter-3 {
@@ -249,7 +260,6 @@ header > div {
   color: white;
   font-size: 10rem;
   text-shadow: black 1px 1px 0;
-  padding: 4rem;
 }
 
 
@@ -465,7 +475,7 @@ header > div {
   .special-intro {
     font-weight: 100;
     line-height: 45px;
-    font-size: 30px;
+    font-size: 32px;
     letter-spacing: 0.5px;
   }
   
@@ -633,7 +643,13 @@ header > div {
   background-size: cover;
   width: 100vw;
   height: 90vh;
+}
 
+#GoalsBackgroundImage {
+  background-image: url("/img/goals-background.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 90vh;
 }
 
 
