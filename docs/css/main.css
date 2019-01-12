@@ -31,6 +31,11 @@ a.button:hover, a.button:focus {
   font-weight: bold;
 }
 
+.border-white {
+  border: 1px solid white;
+}
+
+
 body, html {
   font-family:"Work Sans", "Open Sans", sans-serif;
   color:#575555;
@@ -76,6 +81,24 @@ h6 a, .h6 a {
   color:inherit;
   text-decoration:none;
   font-weight:inherit
+}
+
+.background-image-filter-3,
+.background-image-filter-2 {
+  background-color: black;
+  height: 100%;
+}
+
+.background-image-filter-3 {
+  opacity: 0.3;
+}
+
+.background-image-filter-2 {
+  opacity: 0.2;
+}
+
+.opacity-1 {
+  opacity: 1;
 }
 
 .flex {
@@ -128,7 +151,6 @@ h6 a, .h6 a {
 
 .card {
   margin: 1rem 0.5rem 4rem 0.5rem;
-  padding: 0.5rem;
   background-color: white;
   box-shadow: 0 30px 4rem 0 rgba(1,1,1,.15);
 }
@@ -220,6 +242,18 @@ header > div {
 
 
 /* ==========================================================================
+   Hero Image Text
+   ========================================================================== */
+
+.hero-image-text {
+  color: white;
+  font-size: 10rem;
+  text-shadow: black 1px 1px 0;
+  padding: 4rem;
+}
+
+
+/* ==========================================================================
    Full width Carousel
    ========================================================================== */
 
@@ -250,9 +284,245 @@ header > div {
 }
 
 
+  /* ==========================================================================
+   Flying carpet
+   ==========================================================================*/
+
+   .flying-carpet-text-overlay-container {
+    position: relative;
+  }
+     
+  .flying-carpet-text-overlay {
+    position: absolute;
+    top: 3rem;
+    left: 0;
+    right: 0;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    z-index: 1;
+  
+  }
+  
+  .flying-carpet-text-overlay amp-fit-text {
+    height: 280px;
+  }
+  
+  /* ==========================================================================
+     Carousel
+     ==========================================================================*/
+  
+  .i-amphtml-scrollable-carousel-container {
+     overflow-x: hidden !important; /* hide the scrollbar */
+  }
+  
+  .amp-carousel-button {
+    background-color: #4fc0b9;
+  }
+    
+  .amp-carousel-slide {
+    padding-right: 2.5rem;
+  }
+  .amp-carousel-slide:last-of-type {
+    padding-right: 0;
+  }
+  
+  .carousel-heading,
+  .carousel-text {
+    max-width: 320px;
+    overflow-x: hidden;
+    text-align: center;
+    white-space: normal;
+  }
+  
+  .carousel-heading {
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+  .carousel-text {
+    white-space: normal;
+    font-weight: 100;
+    padding-bottom: 1rem;
+  }
+
+
 /* ==========================================================================
-   Homepage Services section
+   Announcements
    ========================================================================== */
+
+   #BottomAnnouncement {
+    background-color: #4fc0b9;
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  
+  /* ==========================================================================
+    Footer
+    ========================================================================== */
+  
+  footer,
+  .footer-contact,
+  footer .social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: top; 
+  }
+  
+  .footer-contact {
+    flex-direction: column;
+  }
+  
+  
+  footer {
+    background-color:rgba(209, 206, 206, 0.37);
+    padding: 4em 0 3em 0;
+  }
+  
+  .footer-heading {
+    font-weight: bold;
+    color: #4fc0b9;
+  }
+  
+  footer .social-icons > div {
+    padding-right: 1rem;
+  }
+  
+  footer .social-icons > div:last-child {
+    padding-right: 0;
+  }
+  
+  footer .social-icons svg {
+    width: 2rem;
+    height: 2rem;
+  }
+  
+  /* footer ul {
+    color: #000000;
+    padding: 0 0;
+    margin: 0 0;
+  } */
+  
+  /* @media only screen and (min-width: 576px) {
+    footer .contact-info {
+        text-align:left;
+    }
+  }
+  
+  footer .social-icons {
+    text-align:center;
+    margin-bottom:1em;
+  }
+  @media only screen and (min-width: 576px) {
+    footer .social-icons {
+        text-align:left;
+    }
+  }
+  
+  footer .copyright {
+    text-align:center;
+  }
+  @media only screen and (min-width: 576px) {
+    footer .copyright {
+        text-align:right;
+    }
+  }
+  
+  .footer-nav {
+    font-size: 18px;
+    color: #3d4246;
+    line-height: 0.50;
+  } */
+  
+  
+/* ==========================================================================
+   Content Pages
+   ==========================================================================*/
+
+   #SectionOneContent {
+    background-color: #4fc0b9;
+    padding: 2rem;
+  }
+  
+  #SectionOneContent > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: top; 
+    color: white;
+  }
+  
+  #SectionOneContent > div > div {
+    flex-basis: 30rem;
+    margin-top: 1rem;
+  }
+  
+  .special-intro {
+    font-weight: 100;
+    line-height: 45px;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+  }
+  
+  .special-content {
+    font-weight: 100;
+    line-height: 28px;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+  }
+  
+  #FurtherInformation { 
+    padding: 2rem;
+  }
+  
+  #FurtherInformation > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: top; 
+  }
+  
+  #FurtherInformation > div > div {
+    flex-basis: 30rem;
+    margin-top: 2rem;
+  }
+ 
+  
+
+/* =============================
+   Special Services section - Contents Pages
+   ============================= */
+
+   .special-services-section {
+    padding:2rem;
+    font-size:18px;
+    text-align:center;
+    color: #575555;
+  }
+  
+  .special-services-section-text {
+    max-width: 250px;
+  }
+  
+  .special-services-section .flex > div:hover,
+  .special-services-section .flex > div:focus {
+    transform: scale(1.2);
+  }
+  
+  
+
+/* ==========================================================================
+   Homepage 
+   ========================================================================== */
+
+/* ==============================
+   Homepage Services section
+   ============================== */
 
   .home-services-section {
     padding:2rem;
@@ -280,73 +550,10 @@ header > div {
   }
 
 
-  /* ==========================================================================
-   Flying carpet
-   ==========================================================================*/
 
-.flying-carpet-text-overlay-container {
-  position: relative;
-}
-   
-.flying-carpet-text-overlay {
-  position: absolute;
-  top: 3rem;
-  left: 0;
-  right: 0;
-  font-size: 30px;
-  font-weight: 600;
-  text-align: center;
-  color: white;
-  z-index: 1;
-
-}
-
-.flying-carpet-text-overlay amp-fit-text {
-  height: 280px;
-}
-
-/* ==========================================================================
-   Carousel
-   ==========================================================================*/
-
-.i-amphtml-scrollable-carousel-container {
-   overflow-x: hidden !important; /* hide the scrollbar */
-}
-
-.amp-carousel-button {
-  background-color: #4fc0b9;
-}
-  
-.amp-carousel-slide {
-  padding-right: 2.5rem;
-}
-.amp-carousel-slide:last-of-type {
-  padding-right: 0;
-}
-
-.carousel-heading,
-.carousel-text {
-  max-width: 320px;
-  overflow-x: hidden;
-  text-align: center;
-  white-space: normal;
-}
-
-.carousel-heading {
-  font-size: 17px;
-  font-weight: bold;
-}
-
-.carousel-text {
-  white-space: normal;
-  font-weight: 100;
-  padding-bottom: 1rem;
-}
-
-
-/* ==========================================================================
+/* ===============================
    Activate News
-   ========================================================================== */
+   =============================== */
 
 #ActivateNews {
   background-color: #58636d;
@@ -360,103 +567,11 @@ header > div {
   color: white;
 }
 
-/* ==========================================================================
-   Announcements
-   ========================================================================== */
-
-#BottomAnnouncement {
-  background-color: #4fc0b9;
-  color: white;
-  font-weight: bold;
-  padding: 1rem;
-  text-align: center;
-}
-
-
-/* ==========================================================================
-  Footer
-  ========================================================================== */
-
-footer,
-.footer-contact,
-footer .social-icons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: top; 
-}
-
-.footer-contact {
-  flex-direction: column;
-}
-
-
-footer {
-  background-color:rgba(209, 206, 206, 0.37);
-  padding: 4em 0 3em 0;
-}
-
-.footer-heading {
-  font-weight: bold;
-  color: #4fc0b9;
-}
-
-footer .social-icons > div {
-  padding-right: 1rem;
-}
-
-footer .social-icons > div:last-child {
-  padding-right: 0;
-}
-
-footer .social-icons svg {
-  width: 2rem;
-  height: 2rem;
-}
-
-/* footer ul {
-  color: #000000;
-  padding: 0 0;
-  margin: 0 0;
-} */
-
-/* @media only screen and (min-width: 576px) {
-  footer .contact-info {
-      text-align:left;
-  }
-}
-
-footer .social-icons {
-  text-align:center;
-  margin-bottom:1em;
-}
-@media only screen and (min-width: 576px) {
-  footer .social-icons {
-      text-align:left;
-  }
-}
-
-footer .copyright {
-  text-align:center;
-}
-@media only screen and (min-width: 576px) {
-  footer .copyright {
-      text-align:right;
-  }
-}
-
-.footer-nav {
-  font-size: 18px;
-  color: #3d4246;
-  line-height: 0.50;
-} */
-
 
 
 /* ==========================================================================
    Services Page
    ==========================================================================*/
-
 
 .services-page-accordion {
   width: 100%;
@@ -505,53 +620,36 @@ footer .copyright {
 
 
 /* ==========================================================================
-   Content Pages
+   PT Page
    ==========================================================================*/
 
-#SectionOneContent {
-  background-color: #4fc0b9;
+#ThePTTeam {
+  background-color: rgba(209, 206, 206, 0.37);
   padding: 2rem;
+}  
+
+#PTPageHeaderImage {
+  background-image: url("/img/personal-training-banner1.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 90vh;
+
 }
 
-#SectionOneContent > div {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: top; 
-  color: white;
-}
 
-#SectionOneContent > div > div {
-  flex-basis: 30rem;
-  margin-top: 1rem;
-}
+/* ==========================================================================
+   Our Team Page
+   ==========================================================================*/
 
-.special-intro {
-  font-weight: 100;
-  line-height: 45px;
-  font-size: 30px;
-  letter-spacing: 0.5px;
-}
 
-.special-content {
-  font-weight: 100;
-  line-height: 28px;
-  font-size: 18px;
-  letter-spacing: 0.5px;
-}
 
-#FurtherInformationGrid { 
-  padding: 2rem;
-}
+/* ==========================================================================
+   Events Page
+   ==========================================================================*/
 
-#FurtherInformationGrid > div {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: top; 
-}
 
-#FurtherInformationGrid > div > div {
-  flex-basis: 40rem;
-  margin-top: 2rem;
-}
+/* ==========================================================================
+   Contact Page
+   ==========================================================================*/
+
+
