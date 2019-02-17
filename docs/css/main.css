@@ -65,7 +65,7 @@ h6, .h6 {
   color: #4fc0b9;
   text-align: center;
   text-transform: uppercase;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", "lora", sans-serif, serif;
   font-weight: bold;
   position: relative;
 }
@@ -215,7 +215,7 @@ header > div {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .logo-wrapper amp-img {
@@ -225,7 +225,7 @@ header > div {
 
 .header-navbar {
    border:none;
-   font-size: 1.3rem;
+   font-size: 1.5rem;
    line-height: 2;
    /* padding-bottom: 0em; */
 }
@@ -253,8 +253,8 @@ header > div {
 
 .header-navbar nav ul li a {
   text-transform: uppercase;
-  font-weight: 600;
-  font-size: 1.15rem;
+  font-weight: 300;
+  font-size: 1rem;
   color: #575555;
 }
 
@@ -262,6 +262,13 @@ header > div {
 .header-navbar nav ul li a.active {
     color: #4fc0b9;
 }
+
+/* #ActivateHeaderImage {
+  background-image: url("/img/activate-health-fitness-banner-2.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 90vh;
+} */
 
 
 /* ==========================================================================
@@ -272,6 +279,32 @@ header > div {
   color: white;
   font-size: 10rem;
   text-shadow: black 1px 1px 0;
+}
+
+
+/* ==========================================================================
+   Parallax
+   ========================================================================== */
+
+.parallax-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.parallax-image-window {
+  overflow: hidden;
+}
+
+#ActivateHealthFitnessBanner .parallax-overlay-text {
+  color: white;
+  top: 45%;
+  left: 30%;
+  position: absolute;
+  z-index: 1;
+}
+
+#ActivateHealthFitnessBanner .parallax-image-window amp-img {
+  margin-bottom: -20%;
 }
 
 
