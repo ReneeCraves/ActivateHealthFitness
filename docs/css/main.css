@@ -640,6 +640,27 @@ header > div {
     letter-spacing: 0.3px;
   }
   
+/* ===============================
+   Move Recover Nourish Banner
+   =============================== */
+
+#MoveRecoverNourishImage {
+  background-image: url("/img/move-recover-nourish.jpg");
+  background-size: cover;    
+  width: 100vw;
+  height: 90vh;
+}
+
+/* ===============================
+   Our Partners Section
+   =============================== */
+
+#OurPartners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: top;
+}
 
 /* ===============================
    Activate News
@@ -656,17 +677,6 @@ header > div {
 #ActivateNews h1 {
   color: white;
 }
-
-/* ===============================
-   Move Recover Nourish Banner
-   =============================== */
-
-#MoveRecoverNourishImage {
-  background-image: url("/img/move-recover-nourish.jpg");
-  background-size: cover;
-  width: 100vw;
-  height: 90vh;
-
 
 /* ==========================================================================
    Services Page
