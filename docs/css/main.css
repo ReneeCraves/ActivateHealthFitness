@@ -2,6 +2,10 @@
     max-width: 1200px;
 }
 
+.white {
+  color: white;
+}
+
 .ahf-color {
   color: #4fc0b9;
 }
@@ -43,7 +47,7 @@ body, html {
 body,input,textarea,button,select {
   font: size 18px;
   font-family:"Work Sans", "Open Sans", sans-serif;
-  color:#575555;
+  color:#807c7c;
   line-height:1.5;
 }
 
@@ -62,11 +66,11 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  color: #4fc0b9;
+  color: #4c4f54;
   text-align: center;
   text-transform: uppercase;
-  font-family: "Raleway", "lora", sans-serif, serif;
-  font-weight: bold;
+  font-family: "Raleway", sans-serif, serif;
+  font-weight: bold; 
   position: relative;
 }
 
@@ -297,8 +301,9 @@ header > div {
 
 #ActivateHealthFitnessBanner .parallax-overlay-text {
   color: white;
-  top: 45%;
-  left: 30%;
+  top: 30%;
+  left: 0;
+  right: 0;
   position: absolute;
   z-index: 1;
 }
@@ -401,7 +406,6 @@ header > div {
     font-weight: 100;
     padding-bottom: 1rem;
   }
-
 
 /* ==========================================================================
    Announcements
@@ -553,7 +557,7 @@ header > div {
     padding:2rem;
     font-size:18px;
     text-align:center;
-    color: #575555;
+    color: #4c4f54;
   }
   
   .special-services-section-text {
@@ -579,7 +583,7 @@ header > div {
     padding:2rem;
     font-size:18px;
     text-align:center;
-    color: #575555;
+    color: #4c4f54;
   }
 
   .home-services-section-text {
@@ -595,19 +599,54 @@ header > div {
     filter: grayscale(0);
   }
 
-  .home-services-section .flex > div:hover,
+  /*.home-services-section .flex > div:hover,
   .home-services-section .flex > div:focus {
     transform: scale(1.2);
   }
+  */
 
+  /* ==============================
+   Homepage - About Activate Services
+   ============================== */
 
+   #AboutServices {
+    background-color: white;
+    padding: 1rem;
+  }
+  
+  #AboutServices > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: top; 
+    color: #4c4f54;
+  }
+  
+  #AboutServices > div > div {
+    flex-basis: 30rem;
+  }
+  
+  .about-services-heading {
+    font-family:'Lora';
+    font-size: 34px;
+    letter-spacing: 0.5px;
+  }
+  
+  .about-services-content {
+    font-family:'Raleway';
+    text-align: justify;   
+    line-height: 25px;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+  }
+  
 
 /* ===============================
    Activate News
    =============================== */
 
 #ActivateNews {
-  background-color: #58636d;
+  background-color: #2b2b2b;
   color: white;
   font-weight: bold;
   padding: 1rem;
@@ -618,6 +657,15 @@ header > div {
   color: white;
 }
 
+/* ===============================
+   Move Recover Nourish Banner
+   =============================== */
+
+#MoveRecoverNourishImage {
+  background-image: url("/img/move-recover-nourish.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 90vh;
 
 
 /* ==========================================================================
